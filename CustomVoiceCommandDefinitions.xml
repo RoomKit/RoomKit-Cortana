@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="CustomCommands">
+    <CommandPrefix>Please</CommandPrefix>
+    <Example> Turn off the lights, Turn on the lights </Example>
+
+    <Command Name="LightsOn">
+      <Example> Turn on the lights </Example>
+      <ListenFor> Turn on the lights </ListenFor>
+      <Feedback> Turning on your room lights </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="LightsOff">
+      <Example> Turn off the lights </Example>
+      <ListenFor> Turn off the lights </ListenFor>
+      <Feedback> Turning off your room lights </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="LockDoor">
+      <Example>Lock the door</Example>
+      <ListenFor>Lock the door</ListenFor>
+      <Feedback>Locking your door</Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="UnlockDoor">
+      <Example>Unlock the door</Example>
+      <ListenFor>Unlock the door</ListenFor>
+      <Feedback>Unlocking your door</Feedback>
+      <Navigate/>
+    </Command>
+
+  </CommandSet>
+
+</VoiceCommands>
